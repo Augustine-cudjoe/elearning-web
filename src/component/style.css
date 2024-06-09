@@ -1,0 +1,65 @@
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50% !important;
+}
+.footlogo{ width: 50px; height: 50px; border-radius: 50% !important; }
+
+body{
+    margin: 0;
+    padding: 0%;
+
+}
+* {
+    box-sizing: border-box;
+  }
+
+.navbar-brand{
+    color: rgb(253,29,29);
+    color: radial-gradient(circle, rgba(253,29,29,1) 20%, rgba(61,58,180,1) 30%, rgba(255,255,255,1) 50%);
+     }
+.full-width{
+    width: 100%;
+    height: auto;
+}
+#feature-image{
+    width: 20px;
+    height: auto;
+}
+.subcribe{
+    background-image: url(../img/subscribe-image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.brand-icon img, .navbar-brand img{
+   width: 40px;
+   height: auto; 
+}
+
+
+.copy{
+background-color: black;
+}
+.blur-filter{
+  backdrop-filter: blur(8px); 
+  background-color: rgb(255 255 255 / 30%); 
+}
+ul> .list-unstyled > a:hover{
+background-color: blueviolet;
+cursor: pointer;
+
+}
+
+#login-btn{width: 200px;}
+#login-btn:hover{
+    background: white;
+    color: blue;
+
+}
+
+
+@media screen  and (max-width:767px){
+    .smedia{width: 100% !important;}
+    .input{width: 100%;}
+    
+}
